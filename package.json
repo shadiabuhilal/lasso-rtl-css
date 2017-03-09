@@ -1,0 +1,43 @@
+{
+  "name": "lasso-rtl-css",
+  "version": "1.0.1",
+  "description": "Lasso.js plugin to support to transform CSS from left-to-right to right-to-left using rtlcss npm package.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint --verbose ./index.js ./__tests__/*",
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadiabuhilal/lasso-rtl-css.git"
+  },
+  "keywords": [
+    "lasso-rtl-css",
+    "lasso",
+    "lasso-plugin",
+    "rtl",
+    "right-to-left"
+  ],
+  "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/shadiabuhilal/lasso-rtl-css",
+  "bugs": {
+    "url": "https://github.com/shadiabuhilal/lasso-rtl-css/issues"
+  },
+  "licenses": [
+    {
+      "type": "BSD-3-Clause",
+      "url": "https://github.com/shadiabuhilal/lasso-rtl-css/blob/master/LICENSE.md"
+    }
+  ],
+  "dependencies": {
+    "rtlcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "jest": "^18.1.0",
+    "jshint": "^2.9.4"
+  }
+}
