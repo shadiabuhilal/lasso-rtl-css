@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "pretest": "jshint --verbose ./index.js ./__tests__/*",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "commit": "git-cz"
   },
   "jest": {
     "verbose": true
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shadiabuhilal/lasso-rtl-css.git"
+    "url": "git+https://github.com/shadiabuhilal/lasso-rtl-css.git"
   },
   "keywords": [
     "lasso-rtl-css",
@@ -37,7 +38,17 @@
     "rtlcss": "^2.1.2"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^12.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "jest": "^18.1.0",
-    "jshint": "^2.9.4"
+    "jshint": "^2.9.4",
+    "semantic-release": "^22.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

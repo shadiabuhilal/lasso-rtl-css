@@ -1,4 +1,7 @@
-# lasso-rtl-css [![Build Status](https://travis-ci.org/shadiabuhilal/lasso-rtl-css.svg?branch=master)](https://travis-ci.org/shadiabuhilal/lasso-rtl-css)
+# lasso-rtl-css 
+
+![Build Status](https://github.com/shadiabuhilal/lasso-rtl-css/actions/workflows/push-workflows.yml/badge.svg)
+
 Plugin for Lasso.js to support RTL css by transforming CSS from left-to-right to right-to-left using [rtlcss](https://www.npmjs.com/package/rtlcss) npm package.
 
 # Usage
