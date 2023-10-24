@@ -4,6 +4,7 @@
 
 Plugin for Lasso.js to support RTL css by transforming CSS from left-to-right to right-to-left using [rtlcss](https://www.npmjs.com/package/rtlcss) npm package.
 
+
 # Usage
 ```bash
 npm install lasso-rtl-css --save
