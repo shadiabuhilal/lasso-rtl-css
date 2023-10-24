@@ -1,6 +1,6 @@
 {
   "name": "lasso-rtl-css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Lasso.js plugin to support to transform CSS from left-to-right to right-to-left using rtlcss npm package.",
   "main": "index.js",
   "scripts": {

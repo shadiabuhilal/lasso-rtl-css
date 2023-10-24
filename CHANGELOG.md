@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/shadiabuhilal/lasso-rtl-css/compare/v1.0.0...v1.1.0) (2023-10-24)
+
+
+### Features
+
+* fix semantic release ([98e9f00](https://github.com/shadiabuhilal/lasso-rtl-css/commit/98e9f00a1e1097bf837f58168ac3330fbf0af58f))
+
 # 1.0.0 (2023-10-24)
 
 
