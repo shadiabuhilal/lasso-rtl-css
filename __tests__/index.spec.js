@@ -4,7 +4,7 @@
  */
 'use strict';
 
-/*global jest, jasmine, describe, it, expect */
+/*global jest, describe, it, expect */
 
 jest.mock('fs', function () {
 
@@ -33,7 +33,7 @@ describe('Lasso RTL css plugin', function () {
             contentType: 'css',
             name: 'lasso-rtl-css',
             stream: false,
-            transform: jasmine.any(Function)
+            transform: expect.any(Function)
         });
     });
 
